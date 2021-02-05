@@ -25,8 +25,8 @@ if(!table)return message.channel.send("No estás registrado así que no puedes u
 
 module.exports.help =  {
 name:"test",
-alises:["test"],
-usage:"[ ID del bot ]",
+alises:[""],
+usage:"",
 description:"",
 category:""
   
