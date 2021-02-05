@@ -6,7 +6,7 @@ const db = new sqlite3.Database("./databases/perm_users.sqlite");
 module.exports.run = (client, message, args) => {
   db.get(`SELECT * FROM permisos WHERE id = `+message.author.id, (err ,table) => {
 if(err) return console.error(err);
-if(!table)return;
+if(!table)return message.channel.send("No estás registrado así que no puedes usar este comando.");
 
 
 
@@ -24,8 +24,8 @@ if(!table)return;
 }
 
 module.exports.help =  {
-name:"invbot",
-alises:["genbot"],
+name:"test",
+alises:["test"],
 usage:"[ ID del bot ]",
 description:"Generar una invitacion de un bot por su ID.",
 category:"Nation Users"
