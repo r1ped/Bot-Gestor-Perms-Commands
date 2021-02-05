@@ -27,7 +27,7 @@ module.exports.help =  {
 name:"test",
 alises:["test"],
 usage:"[ ID del bot ]",
-description:"Generar una invitacion de un bot por su ID.",
-category:"Nation Users"
+description:"",
+category:""
   
 }
