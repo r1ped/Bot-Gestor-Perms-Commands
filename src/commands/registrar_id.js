@@ -24,7 +24,7 @@ db.run('INSERT INTO permisos (id) values (?)',
   }
 }
 module.exports.help = {
-	name: "dtp",
+	name: "add",
 	aliases: ["dataperm"],
 	description: "",
 	usage: "",
